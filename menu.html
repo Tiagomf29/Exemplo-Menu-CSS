@@ -1,0 +1,107 @@
+<html
+<head>
+  <title>menu</title>
+  <style type="text/css">
+   
+   
+    ul{
+	
+	  padding:2px;
+      margin:0;	  
+	  list-style:none;
+	
+	}
+	
+	li{
+	
+	  text-align:center;
+	  text-top: 10px;
+	  border: 1px solid black;
+	  width:120px;
+	  height:30px;
+	  padding:6px;
+	  position:relative;
+	  float:left;
+	
+	}
+
+	 
+	li:hover{
+	
+	  background-color:black;
+	  color:white;
+	
+	}
+	
+	li>ul {
+	
+	  position:absolute;
+	  left:130px;
+	  color:black;
+	  top:-4;
+      display:none;	  
+	}
+	
+	li:hover > ul{
+	  
+	   display:block;
+	
+	}
+	
+	ul>li>ul{
+	
+	   left:0;
+	   top:45px;
+	
+	}
+	
+	ul>li>ul>li>ul>li{
+	
+	  left:130px;
+	  top:-48;
+	
+	}
+	
+	 
+	 
+   
+  </style>
+</head>
+<body>
+
+  <ul>  
+    <li>China	  
+	 </li> 
+	<li>Índia</li>
+	<li>Estados Unidos</li>
+	<li>Indonésia
+	  <ul>
+	    <li>Opção 1
+		  <ul>
+	        <li>A</li>
+		    <li>B</li>
+			<li>C</li>
+		    <li>D</li>
+		    <li>E</li>
+		    <li>F</li>
+	      </ul>
+		</li>
+		<li>Opção 2</li>
+	  </ul>
+	</li>
+	<li>Paquistão</li>
+	<li>Brasil
+	  <ul>
+	      <li>AA</li>
+		  <li>BB</li>
+	      <li>CC</li>
+		  <li>DD</li>
+		  <li>EE</li>
+		  <li>FF</li>
+	      </ul>
+	</li>
+	<li>Nigéria</li>  
+  </ul>
+
+</body>
+</html>
